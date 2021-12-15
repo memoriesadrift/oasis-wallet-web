@@ -41,6 +41,9 @@
       "selectWallets": "Sélectionnez les portefeuilles à ouvrir",
       "cancel": "Annuler",
       "openWallets": "Ouvrir"
+    },
+    "bitpie": {
+      "warning": "❗ BitPie wallet users: You cannot import the mnemonic phrase directly from your BitPie wallet. <0>Check documentation for details.</0>"
     }
   },
   "createWallet": {
@@ -48,7 +51,8 @@
     "thisIsYourPhrase": "Voici votre phrase secrète",
     "instruction": "Sauvegardez votre phrase secrète <1>dans le bon ordre</1> et dans un endroit sécurisé, vous en aurez besoin pour ouvrir votre portefeuille à nouveau.",
     "doNotShare": "Ne partagez jamais votre phrase secrète, l'accès à votre phrase secrète permet d'accéder à votre portefeuille ainsi qu'à vos tokens.",
-    "confirmSaved": "J'ai sauvegardé ma phrase secrète."
+    "confirmSaved": "J'ai sauvegardé ma phrase secrète.",
+    "mnemonicMismatch": "Entered mnemonic does not match."
   },
   "account": {
     "summary": {
@@ -76,7 +80,8 @@
       "reclaimEscrow": {
         "received": "<0></0> réclamés par le délégateur",
         "sent": "<0></0> réclamés au validateur"
-      }
+      },
+      "loadingError": "Couldn't load transactions. List may be empty or out of date."
     },
     "sendTransaction": {
       "recipient": "Destinataire",
@@ -97,6 +102,14 @@
     },
     "reclaimEscrow": {
       "reclaim": "Réclamer"
+    },
+    "otherTransaction": {
+      "header": "Unrecognized transaction, type '<0></0>'",
+      "designation": "Other address"
+    },
+    "loadingError": "Couldn't load account. Information may be missing or out of date.",
+    "validator": {
+      "loadingError": "Couldn't load validators. List may be empty or out of date."
     }
   },
   "common": {
