@@ -44,6 +44,11 @@ jobs:
           node-version: 14.x
       - run: yarn install --frozen-lockfile
 
+      # Check that there are no untranslated terms in the original translation file.
+      - run: |
+          yarn extract-messages
+          git diff --quiet src/locales/en/translation.json
+
       # Mega-Linter
       - name: Mega-Linter
         id: ml
