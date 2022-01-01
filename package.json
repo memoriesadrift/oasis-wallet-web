@@ -153,7 +153,7 @@
     "lint-staged": "12.1.4",
     "node-plop": "0.26.3",
     "nodemon": "2.0.15",
-    "plop": "2.7.6",
+    "plop": "3.0.5",
     "postinstall-postinstall": "2.1.0",
     "redux-saga-test-plan": "4.0.4",
     "sanitize.css": "13.0.0",
