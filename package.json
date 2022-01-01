@@ -151,7 +151,7 @@
     "jest-styled-components": "7.0.5",
     "jest-when": "3.5.0",
     "lint-staged": "12.1.4",
-    "node-plop": "0.26.3",
+    "node-plop": "0.30.0",
     "nodemon": "2.0.15",
     "plop": "2.7.6",
     "postinstall-postinstall": "2.1.0",
